@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebAppNet.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>        
+        <%: Scripts.Render("~/bundles/WebMeliJs") %>
+    </asp:PlaceHolder>
+    
+    <webopt:bundlereference runat="server" path="~/Content/css" />  
+</head>
+<body>
+
+<header class="headers">  
+   
+   <div class="seccion-logo">
+       <img class="imgLogo" src="/Imagenes/Logo_ML@2x.png"/>
+   </div>
+    <form method="GET" role="search" id="frmBusqueda" runat="server">
+    <div class="seccion-buscador">
+        <!--  -->
+            <input id="busqueda" type="text" name="inpBuscar" class="inp" placeholder="Nunca dejes de buscar" runat="server" autocomplete="off">
+            <button id="btnBusqueda" onserverclick="btnBuscar_ServerClick" class="icono-Buscar" runat="server" type="submit" >
+                    <img class="imgIcono" src="/Imagenes/ic_Search.png" />
+                </button>
+       
+    </div>
+        </form>
+    <%=contenidoPaises %>
+
+</header>
+
+    
+
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+
+</body>
+</html>

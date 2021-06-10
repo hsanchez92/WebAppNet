@@ -1,0 +1,295 @@
+﻿footer div.bg_gris_light {
+    background: #F8F8F8;
+}
+
+footer section.fw div.display_table {
+    padding: 10px;
+}
+
+footer section.fw article {
+    vertical-align: top;
+}
+
+    footer section.fw article.info_utilidad {
+        width: 50%;
+    }
+
+    footer section.fw article.recomendados,
+    footer section.fw article.se_parte {
+        width: 25%;
+    }
+
+    footer section.fw article h4 {
+        padding: 10px 0;
+    }
+
+        footer section.fw article h4.pieMovil {
+            display: none;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+
+            footer section.fw article h4.pieMovil:hover {
+                color: #008FD9;
+            }
+
+    footer section.fw article.recomendados {
+        border-right: solid 1px #DDDDDD;
+    }
+
+    footer section.fw article.se_parte {
+        border-left: solid 1px #DDDDDD;
+    }
+
+    footer section.fw article nav {
+        /*padding: 0 0 10px;*/
+    }
+
+        footer section.fw article nav ul li a {
+            display: block;
+            text-decoration: none;
+            color: #5F5F5F;
+            font-size: 0.875em;
+            line-height: 1.2857142857;
+        }
+
+            footer section.fw article nav ul li a:hover {
+                color: #008FD9;
+            }
+
+        footer section.fw article nav.display_inline {
+            width: 49%;
+            vertical-align: top;
+        }
+/* * * * * * * * Copyright * * * * * * */
+footer div.bg_gris_regular {
+    background: #DDDDDD;
+}
+
+footer section.final div.display_table {
+    padding: 15px 0;
+}
+
+footer section.final div.paises,
+footer section.final div.newsletter {
+    width: 25%;
+}
+
+    footer section.final div.newsletter table.textbox td {
+        vertical-align: middle;
+    }
+
+    footer section.final div.newsletter table.textbox {
+        width: 100%;
+        max-width: 320px;
+        margin: 0;
+    }
+
+        footer section.final div.newsletter table.textbox td span {
+            display: block;
+            font-size: 0.875em;
+            margin-bottom: 4px;
+            font-family: "Roboto-Medium";
+        }
+
+        footer section.final div.newsletter table.textbox td.icon label {
+            width: 32px;
+            padding: 7px 5px;
+        }
+
+            footer section.final div.newsletter table.textbox td.icon label i,
+            footer section.final div.newsletter table.textbox td.input input {
+                font-size: 0.875em;
+            }
+
+        footer section.final div.newsletter table.textbox td .btn {
+            font-size: 0.875em;
+            padding: 6px 10px;
+            margin-left: 5px;
+        }
+
+footer section.final div.copy {
+    width: 50%;
+}
+
+    footer section.final div.copy p {
+        font-size: 0.75em;
+        line-height: 1.1666666667;
+    }
+
+        footer section.final div.copy p a {
+            color: #5F5F5F;
+            text-decoration: none;
+        }
+
+            footer section.final div.copy p a:hover {
+                color: #008FD9;
+            }
+
+footer section.final div.paises nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+    footer section.final div.paises nav ul li a {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: transparent url('https://www.italika.mx/WebVisorArchivosITK/Archivo.aspx?Tipo=3&Archivo=WebPortalMexicoITK/recursos/img/Generales/italika_paises.png') no-repeat 0 0;
+        border-radius: 50%;
+        transition: all 0.25s ease-in-out;
+        -webkit-transition: all 0.25s ease-in-out;
+        -moz-transition: all 0.25s ease-in-out;
+        -o-transition: all 0.25s ease-in-out;
+    }
+
+        footer section.final div.paises nav ul li a#mx {
+            background-position: 0 0;
+        }
+
+        footer section.final div.paises nav ul li a#pa {
+            background-position: -30px 0;
+        }
+
+        footer section.final div.paises nav ul li a#gt {
+            background-position: -60px 0;
+        }
+
+        footer section.final div.paises nav ul li a#br {
+            background-position: -90px 0;
+        }
+
+        footer section.final div.paises nav ul li a#pe {
+            background-position: -120px 0;
+        }
+
+        footer section.final div.paises nav ul li a#hn {
+            background-position: -150px 0;
+        }
+
+        footer section.final div.paises nav ul li a#cr {
+            background-position: -180px 0;
+        }
+
+        footer section.final div.paises nav ul li a#mx:hover,
+        footer section.final div.paises nav ul li a#mx.actual {
+            background-position: 0 -30px;
+        }
+
+        footer section.final div.paises nav ul li a#pa:hover,
+        footer section.final div.paises nav ul li a#pa.actual {
+            background-position: -30px -30px;
+        }
+
+        footer section.final div.paises nav ul li a#gt:hover,
+        footer section.final div.paises nav ul li a#gt.actual {
+            background-position: -60px -30px;
+        }
+
+        footer section.final div.paises nav ul li a#br:hover,
+        footer section.final div.paises nav ul li a#br.actual {
+            background-position: -90px -30px;
+        }
+
+        footer section.final div.paises nav ul li a#pe:hover,
+        footer section.final div.paises nav ul li a#pe.actual {
+            background-position: -120px -30px;
+        }
+
+        footer section.final div.paises nav ul li a#hn:hover,
+        footer section.final div.paises nav ul li a#hn.actual {
+            background-position: -150px -30px;
+        }
+
+        footer section.final div.paises nav ul li a#cr:hover,
+        footer section.final div.paises nav ul li a#cr.actual {
+            background-position: -180px -30px;
+        }
+
+@media screen and (max-width: 965px) {
+    footer section.fw article.recomendados,
+    footer section.fw article.se_parte {
+        width: 30%;
+    }
+
+    footer section.fw article.info_utilidad {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    footer section.final div.newsletter,
+    footer section.final div.copy,
+    footer section.final div.paises {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    footer section.final div.display_table {
+        padding: 10px 0;
+    }
+    /*footer section.final div.copy {
+		margin-bottom: 10px;
+	}*/
+    footer section.final div.newsletter table.textbox {
+        max-width: 350px;
+        margin: 0 auto 10px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    footer section.fw article h4 {
+        font-size: 0.875em;
+    }
+
+    footer section.fw article h4,
+    footer section.fw article nav {
+        text-align: left;
+    }
+
+        footer section.fw article h4.pieWeb {
+            display: none;
+        }
+
+        footer section.fw article h4.pieMovil {
+            display: block;
+        }
+
+    footer section.fw article.recomendados,
+    footer section.fw article.se_parte,
+    footer section.fw article.info_utilidad {
+        display: block;
+        width: 100%;
+        border: 0;
+        border-bottom: solid 1px #DDD;
+    }
+
+    footer section.fw article.se_parte {
+        border-bottom: 0;
+    }
+
+    footer section.fw article nav {
+        display: none;
+        width: 100%;
+        /*padding: 0 0 10px;*/
+    }
+
+        footer section.fw article nav.display_inline {
+            display: none;
+            width: 100%;
+        }
+
+    footer section.fw article.info_utilidad nav {
+        padding: 0;
+    }
+
+        footer section.fw article.info_utilidad nav:last-child {
+            padding-bottom: 10px;
+        }
+
+    footer section.final div.newsletter,
+    footer section.final div.paises {
+        display: none;
+    }
+}
